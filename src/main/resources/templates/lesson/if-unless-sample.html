@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleafのifとunless</title>
+</head>
+<body>
+    <p th:if="${show}">${show}がTRUEなのでこのメッセージは表示されます。</p>
+    <p th:unless="${show}">${show}がTRUEなのでこのメッセージは表示されません。</p>
+</body>
+</html>
